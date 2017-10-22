@@ -16,3 +16,5 @@ for link in soup.find_all('a'):
     table = soup.find('table', {"class" : "figures-table"})
     if table:
         print(table)
+
+        print("hej")
